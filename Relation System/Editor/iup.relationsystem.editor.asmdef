@@ -1,0 +1,18 @@
+{
+    "name": "iup.relationsystem.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:668dcd11ffb91df469f5149044555649"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
