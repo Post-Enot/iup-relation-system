@@ -3,7 +3,7 @@ using System.IO;
 using UnityEditor;
 using UnityEditor.AssetImporters;
 
-namespace IUP.Toolkits.RelationSystem
+namespace IUP.Toolkits.RelationSystemLegacy
 {
     [ScriptedImporter(_version, _fileExtension)]
     internal class RelationshipSchemeImporter : ScriptedImporter

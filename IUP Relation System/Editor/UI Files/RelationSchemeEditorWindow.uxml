@@ -1,11 +1,21 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/RelationSchemeEditorWindow.uss?fileID=7433441132597879392&amp;guid=4dcd0884e2289404298104e252b57175&amp;type=3#RelationSchemeEditorWindow" />
     <ui:TwoPaneSplitView fixed-pane-initial-dimension="300">
-        <ui:TwoPaneSplitView fixed-pane-initial-dimension="300" fixed-pane-index="1" orientation="Vertical">
-            <ui:VisualElement />
-            <ui:VisualElement name="relation-types-block">
-                <ui:ListView focusable="true" virtualization-method="DynamicHeight" />
+        <ui:VisualElement name="relation-groups-pane">
+            <ui:Label tabindex="-1" text="Relation Groups" display-tooltip-when-elided="true" name="pane-header" class="iup-pane-header" />
+            <ui:Label tabindex="-1" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:TwoPaneSplitView fixed-pane-initial-dimension="300" fixed-pane-index="1" orientation="Horizontal" name="TwoPaneSplitView">
+            <ui:VisualElement name="relation-group-pane">
+                <ui:Label tabindex="-1" text="Relation Group" display-tooltip-when-elided="true" name="pane-header" class="iup-pane-header" />
+                <ui:VisualElement name="relation-group-inspector" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                    <ui:TextField picking-mode="Ignore" label="Group Name" value="group name" name="group-name-field" />
+                    <ui:IntegerField label="Priority" value="0" name="group-priority-field" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="relation-types-pane" class="iup-relation-types-pane">
+                <ui:Label tabindex="-1" text="Relation Types" display-tooltip-when-elided="true" name="pane-header" class="iup-pane-header" />
             </ui:VisualElement>
         </ui:TwoPaneSplitView>
-        <ui:VisualElement style="width: auto;" />
     </ui:TwoPaneSplitView>
 </ui:UXML>

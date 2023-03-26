@@ -1,4 +1,4 @@
-namespace IUP.Toolkits.RelationSystem.Editor
+namespace IUP.Toolkits.RelationSystemLegacy.Editor
 {
     /// <summary>
     /// Класс, содержащий константы путей к файлам интерфейсов, реализованных с помощью UI Toolkits.

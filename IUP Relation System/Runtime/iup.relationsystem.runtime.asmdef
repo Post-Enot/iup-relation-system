@@ -1,7 +1,9 @@
 {
-    "name": "iup.relationsystem.runtime",
+    "name": "IUP.RelationSystem.Runtime",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "IUP.GeneralPurposeUtilities.Runtime"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

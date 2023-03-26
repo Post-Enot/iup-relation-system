@@ -5,7 +5,7 @@ using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace IUP.Toolkits.RelationSystem.Editor
+namespace IUP.Toolkits.RelationSystemLegacy.Editor
 {
     internal sealed class RelationSchemeEditorWindow : EditorWindow
     {
